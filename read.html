@@ -1,0 +1,167 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Special Strap</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+        .container {
+            font-family: "Poppins", sans-serif;
+            background-size: auto;
+            background-size: 100%, 50%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            background-color: rgb(225, 244, 245);
+        }
+
+        .nav {
+            float: right;
+            display: flex;
+
+        }
+
+        .nav-menu {
+            color: black;
+            display: flex;
+            padding-right: 5px;
+            padding-left: 5px;
+            font-size: 14px;
+            align-items: center;
+        }
+
+        .wrapper {
+            display: inline-flex;
+        }
+
+        .wrapper .icon {
+            position: relative;
+            border-radius: 50%;
+            padding-left: 120px;
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            width: 12px;
+            height: 12px;
+            font-size: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .content-img {
+            padding-top: 120px;
+            padding-left: 60px;
+            font-size: 22px;
+        }
+
+        .content {
+            width: 100%;
+            margin: 0 auto;
+            padding: 5px;
+            display: flex;
+
+        }
+
+        .content-home {
+            font-size: 16px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            padding-right: 8px;
+            padding-left: 8px;
+
+        }
+
+        .all-items {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .item {
+            padding: 1.5rem;
+            transition: 0.3s ease-in-out background-color;
+            border-radius: 12px;
+            flex: 1;
+        }
+
+        .item-heading {
+            font-weight: 500;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            font-family: 'Poppins';
+        }
+
+        .item-desc {
+            color: var(--secondary-gray);
+        }
+
+        @media only screen and (max-width: 768px) {
+            .all-items {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        .con {
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+        }
+
+        .img {
+            margin: 10px;
+
+            padding-left: 300px;
+            border-radius: 50%px;
+        }
+
+        .buttone {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav">
+                <span class="nav-menu"><a class="nav-link" href="index.html">Home</a></span>
+                <span class="nav-menu"><a class="nav-link" href="stories.html">Stories</a></span>
+                <span class="nav-menu"><a class="nav-link" href="meetup.html">Meet ups</a></span>
+                <span class="nav-menu"><a class="nav-link" href="read.html">Read good</a> </span>
+                </span>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="content-home">Quote of the Day</div>
+            <span class="home-des">
+                <img
+                    src="https://i.ibb.co/nDjjhVZ/young-woman-comforting-her-crying-best-friend-help-support-concept-102172-330-removebg-preview.png">
+            </span>
+            <span class="content-img">
+                <!-- <img class="img-link"
+                    src="https://i.ibb.co/6Rt3HnV/bef735a21f681ae266e604485f1d5e1d-removebg-preview.png"> -->
+                <p><b>“There is a crack in everything, <br>that’s how the light gets in” </b><br> - Leonard Cohen</p>
+                <div class="con">
+                    <a href="https://forms.gle/9kWwRGXeTGhJzmtx9" class="buttone">Share Some Positivity</a>
+                </div>
+            </span>
+        </div>
+</body>
+
+</html>
